@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'kendo-ui';
+
+
+  constructor(public router: Router) {
+  }
+
+
+  goHomePage() {
+    this.router.navigate(['/']);
+  }
 }
