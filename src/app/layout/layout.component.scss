@@ -20,3 +20,20 @@
 .nav-links a:hover {
   background-color: #f0f0f0; /* Change the background color on hover */
 }
+
+
+/* Container styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Set the container to full viewport height */
+}
+
+/* Image styles */
+.container img {
+  margin-bottom: 20px; /* Add some space between the image and links */
+  width: 100vh;
+  height: 60vh;
+}

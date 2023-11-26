@@ -7,6 +7,7 @@ import { GridModule } from '@progress/kendo-angular-grid';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { NavigationModule } from '@progress/kendo-angular-navigation';
 import {LayoutComponent} from "./layout/layout.component";
+import {NgOptimizedImage} from "@angular/common";
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import {LayoutComponent} from "./layout/layout.component";
     BrowserAnimationsModule,
     GridModule,
     AppRoutingModule,
-    NavigationModule
+    NavigationModule,
+    NgOptimizedImage
   ],
   providers: [],
   bootstrap: [AppComponent]

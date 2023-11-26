@@ -3,11 +3,12 @@
             [pageSize]="10"
             [pageable]="true"
             [sortable]="true"
+             [autoSize]="true"
             [filterable]="true"
             [groupable]="true"
 >
   <kendo-grid-column field="productID" title="ID"></kendo-grid-column>
-  <kendo-grid-column field="productName" title="Name"></kendo-grid-column>
+  <kendo-grid-column  field="productName" title="Name"></kendo-grid-column>
   <kendo-grid-column field="category.categoryName" title="Category"></kendo-grid-column>
   <kendo-grid-column field="unitPrice" title="Price"></kendo-grid-column>
 </kendo-grid>
